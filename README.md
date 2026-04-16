@@ -1,3 +1,7 @@
+# Goal of this fork
+
+- add repo grouping/profiling feature similar to one gitkraken supports
+
 # Gitnuro - Multiplatform Git Client
 
 [![Latest release](https://img.shields.io/github/v/release/JetpackDuba/Gitnuro?color=blue&label=latest%20release)](https://github.com/JetpackDuba/Gitnuro/releases/latest)
@@ -15,7 +19,7 @@ Linux:
 
 - Available as Flatpak [here](https://flathub.org/apps/details/com.jetpackduba.Gitnuro) or by
   running `flatpak install com.jetpackduba.Gitnuro` if you have Flatpak & Flathub already setup.
-    - If Flathub is not set up, you can add the source with the following
+  - If Flathub is not set up, you can add the source with the following
       command `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`.
 - JAR file can be executed as a portable version (Requires JRE 17).
 
@@ -141,12 +145,11 @@ it if it's a very requested feature but not for now.
 
 Currently there are some limitations regarding this topic. Here are some known problematic setups:
 
-- Multicast DNS remote URL (https://github.com/JetpackDuba/Gitnuro/issues/19) with this
-  workaround (https://github.com/JetpackDuba/Gitnuro/issues/19#issuecomment-1374431720).
-- Self signed server certificate (https://github.com/JetpackDuba/Gitnuro/issues/48)
+- Multicast DNS remote URL (<https://github.com/JetpackDuba/Gitnuro/issues/19>) with this
+  workaround (<https://github.com/JetpackDuba/Gitnuro/issues/19#issuecomment-1374431720>).
+- Self signed server certificate (<https://github.com/JetpackDuba/Gitnuro/issues/48>)
 
 If the authentication fails and you think its due to a different reason, please open a new issue.
-
 
 > Does it support Git credentials manager (aka manager-core)?
 
@@ -169,4 +172,3 @@ Example for windows (you may want to edit `C:\Program Files\Git\etc\gitconfig`):
 ## Sponsors
 
 Thank you to all the sponsors for helping improve Gitnuro and JetBrains for providing the necessary tooling.
-
